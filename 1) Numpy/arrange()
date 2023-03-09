@@ -1,1 +1,29 @@
+import numpy as np
 
+help(np.arange)
+# Syntax: arange(start,stop, skip, dtype)
+
+print('-----------------------------------------------------')
+# Examples of arange() functions
+x = np.arange(1,10)
+print(x)
+
+print('-----------------------------------------------------')
+
+x1 = np.arange(5.0)
+print(x1)
+
+print('-----------------------------------------------------')
+
+y = np.arange(1,20,2)
+print(y)
+
+print('-----------------------------------------------------')
+
+y1 = np.arange(20,81,4)
+print(y1)
+
+print('-----------------------------------------------------')
+
+z = np.arange(0,10,2,dtype="complex")
+print(z)
